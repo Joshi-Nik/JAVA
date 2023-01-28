@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.smart.SmartcontactmanagerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.544 s <<< FAILURE! - in com.smart.SmartcontactmanagerApplicationTests
+com.smart.SmartcontactmanagerApplicationTests  Time elapsed: 0.541 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [D:\sohel sir\smartcontactmanager\target\test-classes\com\smart\SmartcontactmanagerApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\sohel sir\smartcontactmanager\target\test-classes\com\smart\SmartcontactmanagerApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 63
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [D:\sohel sir\smartcontactmanager\target\test-classes\com\smart\SmartcontactmanagerApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 63
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 63
+
